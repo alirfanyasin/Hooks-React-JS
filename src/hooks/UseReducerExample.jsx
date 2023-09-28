@@ -3,21 +3,26 @@ import { useReducer } from "react";
 const UseReducerExample = () => {
   function reducer(state, action) {
     switch (action.type) {
-      case "plus":
+      case ACTION.PLUS:
         return { count: state.count + action.payload };
-      case "minus":
+      case ACTION.MINUS:
         return { count: state.count - 1 };
     }
   }
 
+  const ACTION = {
+    PLUS: "plus",
+    MINUS: "minus",
+  };
+
   const [state, dispatch] = useReducer(reducer, { count: 0 });
 
   const handlePlus = () => {
-    return dispatch({ type: "plus", payload: 20 }); // mengirim payload
+    return dispatch({ type: ACTION.PLUS, payload: 10 });
   };
 
   const handleMinus = () => {
-    return dispatch({ type: "minus" });
+    return dispatch({ type: ACTION.MINUS });
   };
 
   return (
