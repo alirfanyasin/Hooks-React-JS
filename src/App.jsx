@@ -1,9 +1,12 @@
-import UseStateExample from "./hooks/UseStateExample";
+// import UseStateExample from "./hooks/UseStateExample";
+import UseReducerExample from "./hooks/UseReducerExample";
 
 function App() {
   return (
     <div className="flex justify-center mt-10">
-      <UseStateExample />
+      {/* <UseStateExample /> */}
+
+      <UseReducerExample />
     </div>
   );
 }
