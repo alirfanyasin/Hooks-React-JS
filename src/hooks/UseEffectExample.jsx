@@ -2,6 +2,7 @@
   UseEffect
   - UseEffect akan berjalan ketika ada state yang berubah atau dirender
   - Jika menambahkan depedensi [] pada useEffect maka akan berjalan di awal saja
+  - useEffect menganut sistem asyncronos
 */
 
 import React, { useEffect, useState } from "react";
