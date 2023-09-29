@@ -13,3 +13,6 @@ Currently, two official plugins are available:
 * useReducer
 * useEffect
 * useLayoutEffect
+* useInsertionEffect
+* useContext
+* 
