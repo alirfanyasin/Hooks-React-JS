@@ -15,4 +15,6 @@ Currently, two official plugins are available:
 * useLayoutEffect
 * useInsertionEffect
 * useContext
-* 
+* useRef
+* useImperativeHandle
+* useMemo
