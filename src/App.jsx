@@ -5,12 +5,15 @@
 // import UseContextExample from "./hooks/UseContextExample";
 // import UseRefExample from "./hooks/UseRefExample";
 // import UseMemoExample from "./hooks/UseMemoExample";
-import UseCallbackExample from "./hooks/UseCallbackExample";
+// import UseCallbackExample from "./hooks/UseCallbackExample";
+
+// Custom Hooks
+import Post from "./training/Post";
 
 function App() {
   return (
     <div className="flex justify-center mt-10">
-      <UseCallbackExample />
+      <Post />
     </div>
   );
 }
