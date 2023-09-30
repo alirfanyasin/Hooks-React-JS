@@ -4,12 +4,13 @@
 // import UseLayoutEffectExample from "./hooks/UseLayoutEffectExample";
 // import UseContextExample from "./hooks/UseContextExample";
 // import UseRefExample from "./hooks/UseRefExample";
-import UseMemoExample from "./hooks/UseMemoExample";
+// import UseMemoExample from "./hooks/UseMemoExample";
+import UseCallbackExample from "./hooks/UseCallbackExample";
 
 function App() {
   return (
     <div className="flex justify-center mt-10">
-      <UseMemoExample />
+      <UseCallbackExample />
     </div>
   );
 }
