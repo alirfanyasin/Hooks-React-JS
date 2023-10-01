@@ -18,3 +18,6 @@ Currently, two official plugins are available:
 * useRef
 * useImperativeHandle
 * useMemo
+* useCallback
+* CustomHooks
+
